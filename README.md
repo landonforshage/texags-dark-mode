@@ -18,11 +18,8 @@ To use this dark mode theme, you will need to have the Stylus extension installe
 
 2. **Add the TexAgs Dark Mode Style:**
 
-   - Open the Stylus extension in your browser.
-   - Click on "Manage" to open the Stylus dashboard.
-   - Click on "Write new style" and give it a name, e.g., "TexAgs Dark Mode".
-   - Copy and paste the CSS code from this repository into the editor.
-   - Save the style.
+   - Navigate to [TexAgs Dark Mode on userstyles.world](https://userstyles.world/style/19366/texags-dark-mode).
+   - Click on the "Install Style" button.
 
 3. **Enable the Style:**
    - Ensure the style is enabled by checking the box next to its name in the Stylus dashboard.
