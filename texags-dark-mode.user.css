@@ -197,6 +197,10 @@
     color: #d9d0d0 !important;
   }
 
+  .notifications--notification.read .notification--subtitles,
+  .notifications--notification.read,
+  .notifications--notification.read .notification--supertitle,
+  .notifications--notification.read .notification--title,
   #ckeditor-stories .mod-photo-caption,
   #stories #content #body .mod-photo-caption,
   #contact.about .staff-bio,
