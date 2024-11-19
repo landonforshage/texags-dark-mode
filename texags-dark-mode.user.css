@@ -197,6 +197,7 @@
     color: #d9d0d0 !important;
   }
 
+  #forums .postBody .signature,
   .notifications--notification.read .notification--subtitles,
   .notifications--notification.read,
   .notifications--notification.read .notification--supertitle,
