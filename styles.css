@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         TexAgs Dark Mode
+@version      20241119.04.05
+@namespace    userstyles.world/user/landonforshage
+@description  A dark mode for TexAgs
+@author       Landon Forshage
+@license      No License
+@homepageURL  https://github.com/landonforshage/texags-dark-mode
+@supportURL   https://github.com/landonforshage/texags-dark-mode/issues
+==/UserStyle== */
+
 @-moz-document domain("texags.com") {
   /* Base Background Styles */
   #page {
