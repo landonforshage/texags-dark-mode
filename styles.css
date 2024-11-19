@@ -1,0 +1,430 @@
+@-moz-document domain("texags.com") {
+  /* Base Background Styles */
+  #page {
+    background-image: linear-gradient(
+        to bottom,
+        transparent 250px,
+        #1a0e0e 650px
+      ),
+      url(https://texags.blob.core.windows.net/web/themes/images/homepage_bg_full.jpg);
+  }
+
+  #modules .sports,
+  #index .sports > iframe,
+  #modules.sb,
+  #pageBody {
+    background: #1a0e0e;
+  }
+
+  .emptyBack,
+  #index .grey {
+    background: #1a0e0e !important;
+  }
+
+  /* General Backgrounds */
+  #forums.new #newContent,
+  #pageNav > ul > li.active > a,
+  #pageStatus > li.active > a.statusBox,
+  #pageNav > ul li ul,
+  #pageStatus.old-dash > li ul,
+  #modules .sports .info .links.condensed a,
+  #forums .groupContainer,
+  #forums .forumRow,
+  #featured,
+  #potd #nominees,
+  #index #homePOTD #nominees,
+  #forums .vanillaPost,
+  #stories #story,
+  #index .fanPoll .body,
+  #pageStatus .dashboard-panel,
+  .forum-group-sidebar-title-sponsor .title-sponsor-donate-button,
+  #index #more,
+  #index #news,
+  #index .darkGrey,
+  #forums .forumsListItem:visited,
+  #forums .forumsListItem:active,
+  #forums .forumsListItem:link,
+  #forums .forumsListItem,
+  #forums #topics {
+    background: #2b2626;
+  }
+
+  #forums.new .newTitle,
+  .forum-group-sidebar-title-sponsor .title-sponsor-body {
+    background: #aaa;
+  }
+
+  /* Links */
+  a {
+    color: #2d86ff;
+  }
+
+  /* Additional Backgrounds */
+  #ckeditor-stories .mod-quote,
+  #stories #content #body .mod-quote,
+  #forums.new .selected,
+  #forums.new .activeIcon:hover,
+  #stories #tags,
+  #ckeditor-stories h6,
+  #stories #content #body h6 {
+    background: #443d3d;
+  }
+
+  /* Borders */
+  #pageStatus .dashboard-panel a,
+  #forums .userInfo,
+  #potd .border,
+  #index #homePOTD .border,
+  #featured .border,
+  #index #news .article,
+  #forums .topic {
+    border-top-color: #0f0606;
+  }
+
+  #forums .forumRow {
+    border-bottom-color: #0f0606;
+  }
+
+  #ckeditor-stories .mod-quote,
+  #stories #content #body .mod-quote,
+  #forums.new .newTitle,
+  #modules .sports .info .links.condensed a,
+  #stories #tags,
+  #modules .sports .info .last,
+  #stories #content .box,
+  .forum-group-sidebar-title-sponsor .title-sponsor-donate-button,
+  #ckeditor-stories h6,
+  #index .fanPoll .body,
+  #stories #content #body h6 {
+    border-color: #0f0606;
+  }
+
+  /* Blockquote Text Color */
+  #modRecent blockquote,
+  #modUser blockquote,
+  #modDashboard blockquote,
+  #forums .post blockquote {
+    color: #b7afaf;
+  }
+
+  /* Icons */
+  .f5-icon.gear {
+    background-image: url(https://f5s-web-cdn.azureedge.net/icons/gear.svg?fillhex=d9d0d0);
+  }
+
+  /* Hover Effects */
+  #pageStatus .dashboard-panel .dash-header-button:hover {
+    background-color: rgba(255, 255, 255, 0.07);
+  }
+
+  /* Text Colors */
+  #forums.new,
+  #contact.about h2,
+  #contact.about .staff-name a,
+  #contact.about .executive-name a,
+  #forums .forumsListItem:visited,
+  #forums .forumsListItem:active,
+  #forums .forumsListItem:link,
+  #forums .forumsListItem,
+  #errors .notFound h1,
+  #account.register h3,
+  #pageNav > ul > li.active > a,
+  #pageNav > ul li ul,
+  #pageStatus > li ul,
+  .no-touch #pageNav > ul > li.active > a:hover,
+  #pageNav > ul li.has-sub ul li a,
+  #pageStatus > li.has-sub ul li a,
+  #contact.about h3,
+  #modules .sports .info .next .opponent,
+  #modules .sports .info .last .score,
+  #modules .sports .info .name,
+  #forums .maroonButton,
+  #featured .header,
+  #pageStatus .dashboard-panel a,
+  #index .top .more .story .title,
+  #index .fanPoll .body .question,
+  #index .fanPoll .body ul li .button,
+  #index .fanPoll .body ul li .text,
+  #index .featured .title,
+  #index #news .article .headline,
+  #index #news h2,
+  #index #more h2,
+  #index #more .headline,
+  #index #homePOTD .greyLink,
+  #forums .postUsername,
+  #forums .postContent,
+  #forums .forumTitle,
+  #potd .greyLink,
+  #forums .totalReplies,
+  #forums #forumTitle,
+  #featured .storyLinkNormal,
+  #forums .newPostDate,
+  #forums #topicTitleContainer,
+  #forums button.followButton,
+  #forums .staffPost .newPostDate,
+  #forums .bluePost .edits,
+  #forums .name-said,
+  #potdPage .name-said,
+  #forums .postBody blockquote .view-more,
+  #stories #story,
+  #stories #story h1,
+  #forums #header .pager .currentPage,
+  #forums .newTopics,
+  #forums .switchGrey,
+  #forums .columnHeadings,
+  #forums #largePager,
+  #forums #header,
+  #stories #content .standardBody,
+  #stories #content .fullBody,
+  #forums .staffPost .dateLink,
+  #forums .staffPost .replyToOther,
+  #forums .bluePost .dateLink,
+  #forums .bluePost .replyToOther,
+  #forums .replyToOther,
+  #forums .dateLink,
+  #forums .topicTitleLink {
+    color: #d9d0d0 !important;
+  }
+
+  #ckeditor-stories .mod-photo-caption,
+  #stories #content #body .mod-photo-caption,
+  #contact.about .staff-bio,
+  #contact.about .executive-bio,
+  .sb-title-sponsor,
+  #modules .sports .info .next,
+  #modules .sports .info .last,
+  #modules .sports .info .record,
+  #forums .postBody .disclaimer,
+  #forums .listingLast,
+  #forums .listingTotal,
+  #forums .forumDescription,
+  .notifications--sub-header,
+  #index .featured .teaser,
+  #index .featured .author,
+  #index #news .article .date,
+  #index #more .author,
+  #index #more .posts .date,
+  #index #homePOTD .nomineeForum,
+  #forums #current,
+  #forums .lastPostDate,
+  #forums .topicStats,
+  #forums .topicAuthor a,
+  #forums .wideTopics .topicAuthor,
+  #forums .topicTitleLink.hasRead,
+  #stories #tags,
+  #stories #content #info .date,
+  #forums .topicViews-inner,
+  #forums .last-post-link {
+    color: #b3a8a8 !important;
+  }
+
+  /* Group Titles */
+  #forums .groupTitle {
+    background-color: #3a1818;
+  }
+
+  /* Blockquote Backgrounds */
+  #forums .postBody blockquote.unexpanded {
+    background-color: #221b1b;
+    border-color: #1a1313;
+  }
+
+  #forums .postBody blockquote.unexpanded:hover {
+    background-color: #2b2726;
+  }
+
+  #forums .post blockquote,
+  #forums .post blockquote blockquote {
+    border-color: #372e2e;
+  }
+
+  #modRecent blockquote,
+  #modUser blockquote,
+  #modDashboard blockquote,
+  #forums .post blockquote {
+    background-color: #221b1b;
+  }
+
+  #forums .post blockquote blockquote {
+    background-color: #1a1211;
+  }
+
+  /* User Info Background */
+  #forums .userInfo.white,
+  #forums .vanillaPost .userInfo {
+    background-color: #1e1716;
+  }
+
+  /* Headers and Pagers */
+  #forums .newTopics,
+  #forums .switchGrey,
+  #forums .columnHeadings,
+  #forums #largePager,
+  #forums #header {
+    background-color: #4b4445;
+  }
+
+  #forums .forumsListItem:hover,
+  .notifications--notification:hover,
+  #modules .sports .info .links.condensed a:hover,
+  #forums #largePager a.previous:hover,
+  #forums #largePager a.next:hover,
+  #forums #largePager a.first,
+  #forums #largePager a.refresh {
+    background-color: #3a3133;
+  }
+
+  #forums #largePager a.first:hover,
+  #forums #largePager a.refresh:hover {
+    background-color: #2b2325;
+  }
+
+  #forums #topicTitleContainer {
+    background: #2b2627;
+  }
+
+  .box {
+    box-shadow: 0 0 7px 0 rgba(0, 5, 5, 0.8);
+  }
+
+  #featured .story:hover {
+    background: #201c1c;
+  }
+
+  #forums #header .pager .currentPage {
+    background-color: #3a3333;
+  }
+
+  /* Buttons and Notifications */
+  .notifications--sub-header,
+  #index .featured .author .replies,
+  #forums button.followButton,
+  #forums #header .pager .pageButton,
+  #forums .totalReplies {
+    background-color: #5c5252;
+  }
+
+  #forums button.followButton {
+    background-image: url(https://f5s-web-cdn.azureedge.net/icons/bookmark.svg?fillhex=b3a8a8);
+  }
+
+  #forums button.followButton:hover,
+  #forums #posts #header .pager a:hover,
+  #forums #topics #header a.pageButton:hover,
+  #forums a.totalReplies:hover {
+    background-color: #7a6c6c;
+  }
+
+  /* Miscellaneous */
+  #forums .topicStats .tail {
+    display: none;
+  }
+
+  #forums .newReplies {
+    background: #623430;
+    color: #c8c8c8;
+  }
+
+  #forums .topicStats a.newReplies:hover {
+    background-color: #7c4945;
+  }
+
+  #forums .staffReply {
+    background: #447c5b;
+  }
+
+  #forums .staffReply:hover {
+    background: #52936d;
+  }
+
+  #forums .topicStats {
+    padding-top: 12px;
+  }
+
+  /* Filters */
+  #stories #content #info #totalViews,
+  #forums .marker.staff,
+  #forums .userLevel,
+  #forums .sponsor,
+  #forums .sponsorLogo {
+    filter: invert(1);
+  }
+
+  #forums .vanillaPost .postControls a.flag,
+  #forums .vanillaPost .postActions a.postReply,
+  #forums .vanillaPost .postActions a.postQuote,
+  #forums .vanillaPost .postActions a.postGreyStar {
+    filter: invert(0.5);
+  }
+
+  #forums .bluePost .name-said,
+  #potdPage .bluePost .name-said,
+  #forums .staffPost .name-said,
+  #potdPage .staffPost .name-said {
+    color: #d5d5d5;
+  }
+
+  /* Blue Posts */
+  #forums .post.bluePost .postBody blockquote.unexpanded:hover,
+  #forums .bluePost blockquote,
+  #forums .userInfo.blue {
+    background: #17283a;
+  }
+
+  #forums .bluePost {
+    background: #223649;
+  }
+
+  #forums .bluePost blockquote blockquote {
+    background: #111f2d;
+  }
+
+  #forums .post.bluePost blockquote,
+  #forums .post.bluePost blockquote blockquote {
+    border-color: #020a12;
+  }
+
+  #forums .post.bluePost .postBody blockquote.unexpanded {
+    background-color: #07101a;
+  }
+
+  /* Staff Posts */
+  #forums .staffPost blockquote,
+  #forums .staffPost .userInfo {
+    background: #133822;
+  }
+
+  #forums .staffPost {
+    background: #224f36;
+  }
+
+  #forums .post.staffPost .postBody blockquote.unexpanded {
+    background-color: #325340;
+  }
+
+  /* Additional Elements */
+  #forums .starCount {
+    color: #3a9af5;
+  }
+
+  #forums .selectStripe {
+    border-left-color: #cf1c62 !important;
+  }
+
+  #modules .sports .info .poll,
+  .f5-link,
+  .f5-link:link,
+  .f5-link:active,
+  .f5-link:visited,
+  .f5-text {
+    color: #ff2868 !important;
+  }
+
+  #forums #header .checkBar {
+    background: linear-gradient(to bottom, #5a5656, #958a8a);
+  }
+
+  #forums #header .customCheck label {
+    background-color: #b3b3b3;
+  }
+}
