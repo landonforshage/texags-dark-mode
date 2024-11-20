@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         TexAgs Dark Mode
-@version      20241120.09.16
+@version      20241120.09.21
 @namespace    userstyles.world/user/landonforshage
 @description  A dark mode for TexAgs
 @author       Landon Forshage
@@ -20,10 +20,13 @@
       url(https://texags.blob.core.windows.net/web/themes/images/homepage_bg_full.jpg);
   }
 
+  #pageBody {
+    background: #160606;
+  }
+
   #modules .sports,
   #index .sports > iframe,
-  #modules.sb,
-  #pageBody {
+  #modules.sb {
     background: #1a0e0e;
   }
 
