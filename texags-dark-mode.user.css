@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         TexAgs Dark Mode
-@version      20241120.09.08
+@version      20241120.09.16
 @namespace    userstyles.world/user/landonforshage
 @description  A dark mode for TexAgs
 @author       Landon Forshage
@@ -197,6 +197,7 @@
     color: #d9d0d0 !important;
   }
 
+  .notifications--none,
   #forums .postBody .signature,
   .notifications--notification.read .notification--subtitles,
   .notifications--notification.read,
@@ -334,6 +335,10 @@
     background-color: #7a6c6c;
   }
 
+  #pageStatus .dashboard-panel {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.8);
+  }
+
   /* Miscellaneous */
   #forums .topicStats .tail {
     display: none;
@@ -449,5 +454,9 @@
 
   #forums #header .customCheck label {
     background-color: #b3b3b3;
+  }
+
+  #pageHeaderBox.non-full-header {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.7);
   }
 }
