@@ -303,6 +303,7 @@
     box-shadow: 0 0 7px 0 rgba(0, 5, 5, 0.8);
   }
 
+  #potd .nominee:hover,
   #featured .story:hover {
     background: #201c1c;
   }
@@ -412,6 +413,10 @@
 
   #forums .staffPost {
     background: #224f36;
+  }
+
+  #forums .staffPost blockquote blockquote {
+    background-color: #0a2213;
   }
 
   #forums .post.staffPost .postBody blockquote.unexpanded {
