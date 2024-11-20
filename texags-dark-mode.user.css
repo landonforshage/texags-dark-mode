@@ -286,11 +286,13 @@
   #forums #largePager a.previous:hover,
   #forums #largePager a.next:hover,
   #forums #largePager a.first,
+  #forums #largePager a.last,
   #forums #largePager a.refresh {
     background-color: #3a3133;
   }
 
   #forums #largePager a.first:hover,
+  #forums #largePager a.last:hover,
   #forums #largePager a.refresh:hover {
     background-color: #2b2325;
   }
